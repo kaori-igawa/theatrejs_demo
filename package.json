@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@theatre/core": "^0.7.2",
+    "@theatre/r3f": "^0.7.2",
     "@theatre/studio": "^0.7.2",
     "next": "14.2.5",
     "react": "^18",
