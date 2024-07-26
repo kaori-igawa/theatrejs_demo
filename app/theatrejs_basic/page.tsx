@@ -8,7 +8,7 @@ import studio from '@theatre/studio'
 import myProjectState from './My Project.theatre-project-state.json'
  
 export default function Basic() {
-  const rectangle = useRef(null);
+  const rectangle = useRef<HTMLDivElement>(null);
 
   // projectの宣言と初期化
   const project = getProject('My Project', { state: myProjectState }); // UIに表示されるproject名。任意
@@ -41,7 +41,7 @@ export default function Basic() {
       if(!rectangleElm) return;
 
       rectangleElm.style.transform = `translate(${obj.position.x}px, ${obj.position.y}px) scale(${obj.scale.sx}, ${obj.scale.sy})`;
-      rectangleElm.style.opacity = obj.opacity
+      rectangleElm.style.opacity = String(obj.opacity)
     })
 
   }, []);

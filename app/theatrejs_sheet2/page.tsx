@@ -8,8 +8,8 @@ import studio from '@theatre/studio'
 import myProjectState from './theatrejs_sheet2.theatre-project-state.json'
  
 export default function Basic() {
-  const rectangle = useRef(null);
-  const circle = useRef(null);
+  const rectangle = useRef<HTMLDivElement>(null);
+  const circle = useRef<HTMLDivElement>(null);
 
   const project = getProject('theatrejs_sheet2', { state: myProjectState });
   studio.initialize();
