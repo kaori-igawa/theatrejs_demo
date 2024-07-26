@@ -1,0 +1,187 @@
+{
+  "sheetsById": {
+    "Sheet_2": {
+      "staticOverrides": {
+        "byObject": {}
+      },
+      "sequence": {
+        "subUnitsPerUnit": 30,
+        "length": 10,
+        "type": "PositionalSequence",
+        "tracksByObject": {
+          "circle": {
+            "trackData": {
+              "PIkYZwj-PY": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "circle:[\"position\",\"x\"]",
+                "keyframes": [
+                  {
+                    "id": "wZr4weYUmc",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "ZpabP3sADl",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 234
+                  }
+                ]
+              },
+              "svIWXC5Q37": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "circle:[\"position\",\"y\"]",
+                "keyframes": [
+                  {
+                    "id": "FSU1-UvgUw",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"position\",\"x\"]": "PIkYZwj-PY",
+              "[\"position\",\"y\"]": "svIWXC5Q37"
+            }
+          }
+        }
+      }
+    },
+    "Sheet_1": {
+      "staticOverrides": {
+        "byObject": {
+          "circle": {
+            "position": {
+              "x": 0
+            }
+          }
+        }
+      },
+      "sequence": {
+        "subUnitsPerUnit": 30,
+        "length": 10,
+        "type": "PositionalSequence",
+        "tracksByObject": {
+          "rectangle": {
+            "trackData": {
+              "t5PMT7rR3f": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "rectangle:[\"position\",\"x\"]",
+                "keyframes": [
+                  {
+                    "id": "lvU8uO5jCq",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "iyST8d5J7R",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 234
+                  }
+                ]
+              },
+              "r-kQNljF8H": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "rectangle:[\"position\",\"y\"]",
+                "keyframes": []
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"position\",\"x\"]": "t5PMT7rR3f",
+              "[\"position\",\"y\"]": "r-kQNljF8H"
+            }
+          },
+          "circle": {
+            "trackData": {
+              "KQtqb-HmQC": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "circle:[\"position\",\"x\"]",
+                "keyframes": [
+                  {
+                    "id": "kdGujgA2rw",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0
+                  },
+                  {
+                    "id": "fx-6LnKFC4",
+                    "position": 1,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 225
+                  }
+                ]
+              },
+              "O2ZXGfF7eO": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "circle:[\"position\",\"y\"]",
+                "keyframes": []
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"position\",\"x\"]": "KQtqb-HmQC",
+              "[\"position\",\"y\"]": "O2ZXGfF7eO"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitionVersion": "0.4.0",
+  "revisionHistory": [
+    "ccqL2IFajL1pYEjM"
+  ]
+}

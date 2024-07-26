@@ -4,13 +4,15 @@ import { useEffect, useRef } from 'react'
 
 import { getProject, types } from '@theatre/core'
 import studio from '@theatre/studio'
+
+import myProjectState from './My Project.theatre-project-state.json'
  
 export default function Basic() {
   const rectangle = useRef(null);
 
   // projectの宣言と初期化
-  const project = getProject('My Project'); // UIに表示されるproject名。任意
-  studio.initialize()
+  const project = getProject('My Project', { state: myProjectState }); // UIに表示されるproject名。任意
+  studio.initialize() // UI表示
   // 実案件のときは開発のときだけUIが表示されるようにする
   // if(process.env.NODE_ENV === 'development') {
   //   studio.initialize()
@@ -42,6 +44,12 @@ export default function Basic() {
       rectangleElm.style.opacity = obj.opacity
     })
 
+  }, []);
+
+  useEffect(() => {
+    project.ready.then(() => {
+      sheet.sequence.play({iterationCount: Infinity, range: [0, 3]})
+    }) 
   }, []);
 
   return (
